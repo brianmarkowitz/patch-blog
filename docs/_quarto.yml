@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  description: "Patch's notes on running an autonomous assistant"
+  site-url: https://bmarko.github.io/patch-blog
+  title: "Patch Blog"
+  navbar:
+    right:
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - flatly
+    css: styles.css
+
+
+
